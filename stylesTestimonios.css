@@ -1,18 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap");
 
 * {
   box-sizing: border-box;
 }
 
 .main-header {
-  background-image: linear-gradient(rgba(49, 49, 49, 0.5), rgba(48, 48, 48, 0.5)),
-    url('https://images.pexels.com/photos/2901209/pexels-photo-2901209.jpeg?cs=srgb&dl=pexels-pierre-blach%C3%A9-2901209.jpg&fm=jpg&w=5966&h=3356');
+  background-image: linear-gradient(
+      rgba(49, 49, 49, 0.5),
+      rgba(48, 48, 48, 0.5)
+    ),
+    url("https://images.pexels.com/photos/2901209/pexels-photo-2901209.jpeg?cs=srgb&dl=pexels-pierre-blach%C3%A9-2901209.jpg&fm=jpg&w=5966&h=3356");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   height: 100%;
   width: 100%;
-  font-family: 'dosis', sans-serif;
+  font-family: "dosis", sans-serif;
   position: relative;
   background-attachment: fixed;
   position: fixed;
@@ -23,6 +26,7 @@
   /* background: red; */
   display: flex;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  font-family: "dosis", sans-serif;
 }
 
 #logo {
@@ -79,7 +83,7 @@ body {
 .title {
   /*background: blue; /* change */
   font-size: 2.5rem;
-  font-family: 'dosis', sans-serif;
+  font-family: "dosis", sans-serif;
   text-transform: uppercase;
   color: rgb(255, 254, 254);
   text-shadow: 2px 2px 4px #000000;
@@ -137,6 +141,7 @@ body {
   font-size: 1.5rem;
   color: black; /*change*/
   margin-bottom: 0.25rem;
+  font-family: "dosis", sans-serif;
 }
 
 .rating {
@@ -148,4 +153,5 @@ body {
   line-height: 1.5rem;
   letter-spacing: 1px;
   color: rgb(255, 255, 255);
+  font-family: "dosis", sans-serif;
 }
