@@ -1,0 +1,224 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  /* This defines what 1rem is */
+  font-size: 62.5%; /*1 rem = 10px; 10px/16px = 62.5% */
+}
+
+body {
+  box-sizing: border-box;
+}
+
+.Home-page {
+  width: 100vw;
+  max-width: 100%;
+  position: relative;
+}
+
+/*
+width: 100vw; sets the width of the element to 100% of the viewport width. This means the element will take up the entire width of the user's screen, regardless of the size of the device.
+
+max-width: 100%; sets the maximum width of the element to 100% of its parent container. This ensures that the element will not exceed the width of its container.
+
+position: relative; sets the position of the element relative to its normal position in the document flow. This means that the element will still occupy space in its original position, but can be moved from that position using CSS positioning properties.
+*/
+
+.hero {
+  height: 100vh;
+  max-width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.pexels.com/photos/1850619/pexels-photo-1850619.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+}
+
+/*.
+hero is a class selector that targets the HTML element(s) with the class "hero".
+
+height: 100vh; sets the height of the element to 100% of the viewport height. This means the element will take up the entire height of the user's screen, regardless of the size of the device.
+
+max-width: 100%; sets the maximum width of the element to 100% of its parent container. This ensures that the element will not exceed the width of its container.
+
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.pexels.com/photos/1850619/pexels-photo-1850619.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"); sets the background image of the element to a linear gradient that fades from 50% opaque black to fully transparent, layered on top of an image located at the URL provided. This creates a semi-transparent overlay effect on the background image.
+
+background-position: top; sets the position of the background image to the top of the element.
+
+background-repeat: no-repeat; sets the background image to not repeat, meaning it will only appear once in the element.
+
+background-size: cover; scales the background image to cover the entire element, while maintaining its aspect ratio.
+
+display: flex; sets the element to use the flexbox layout.
+
+flex-direction: column; sets the direction of the flex container to column, meaning the child elements will be stacked vertically.
+
+justify-content: center; centers the child elements vertically within the flex container.
+
+align-items: center; centers the child elements horizontally within the flex container.
+
+color: white; sets the color of the text within the element to white.
+*/
+
+.hero-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*The display: flex; property sets the element to a flex container, which allows its children to be aligned and positioned using flexbox properties.
+
+The flex-direction: column; property sets the direction of the flex container to be vertical, with its children stacked on top of each other.
+
+The align-items: center; property centers the children of the flex container along the vertical axis.
+*/
+
+.hero-title {
+  width: 100%;
+  font-size: 6rem;
+  text-transform: uppercase;
+  letter-spacing: 2rem;
+  line-height: 1.6;
+  text-align: center;
+  padding: 1rem;
+  text-shadow: 2px 2px 4px #000000;
+
+  animation: slide-left 0.6s ease-out 0.2s backwards;
+}
+
+/*
+The width: 100%; property sets the width of the element to be 100% of its parent container, ensuring it spans the entire width of the screen.
+
+The font-size: 6rem; property sets the font size of the text to be 6 times the size of the default font size.
+
+The text-transform: uppercase; property transforms all the text within the element to uppercase.
+
+The letter-spacing: 2rem; property sets the spacing between each letter to be 2 times the default letter spacing.
+
+The line-height: 1.6; property sets the height of each line of text to be 1.6 times the font size.
+
+The text-align: center; property centers the text horizontally within the element.
+
+The padding: 1rem; property adds 1 rem of padding to all sides of the element.
+
+Finally, the animation property applies a CSS animation called "slide-left" to the element. This animation lasts for 0.6 seconds and uses an easing function called "ease-out". The animation is delayed by 0.2 seconds before it starts, and the element is set to its initial state at the beginning of the animation (which is specified by the "backwards" keyword). The details of the "slide-left" animation are not included in this code snippet, but it likely moves the element from off-screen to its final position, sliding it in from the left.
+*/
+
+.hero-sub-title {
+  padding: 0.5rem;
+  font-size: 3rem;
+  letter-spacing: 3px;
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
+
+  animation: slide-left 0.8s ease-out 1.2s backwards;
+}
+
+/*
+The width: 100%; property sets the width of the element to be 100% of its parent container, ensuring it spans the entire width of the screen.
+
+The font-size: 6rem; property sets the font size of the text to be 6 times the size of the default font size.
+
+The text-transform: uppercase; property transforms all the text within the element to uppercase.
+
+The letter-spacing: 2rem; property sets the spacing between each letter to be 2 times the default letter spacing.
+
+The line-height: 1.6; property sets the height of each line of text to be 1.6 times the font size.
+
+The text-align: center; property centers the text horizontally within the element.
+
+The padding: 1rem; property adds 1 rem of padding to all sides of the element.
+
+Finally, the animation property applies a CSS animation called "slide-left" to the element. This animation lasts for 0.6 seconds and uses an easing function called "ease-out". The animation is delayed by 0.2 seconds before it starts, and the element is set to its initial state at the beginning of the animation (which is specified by the "backwards" keyword). The details of the "slide-left" animation are not included in this code snippet, but it likely moves the element from off-screen to its final position, sliding it in from the left.
+*/
+
+.slogan {
+  font-size: 2.5rem;
+  letter-spacing: 3px;
+  text-align: center;
+
+  animation: slide-left 0.8s ease-out 1.2s backwards;
+}
+
+
+/*NAVIGATION*/
+
+.Navigation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  text-shadow: 2px 2px 4px #000000;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 2.5rem;
+  padding: 20px 40px;
+}
+
+a:hover {
+    background: rgb(56, 90, 227);
+}
+
+.nav-logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+  padding: 20px 40px;
+  font-size: 3rem;
+}
+
+.nav-menu {
+  margin-left: auto;
+  margin-right: 100px;
+  padding: 20px 40px;
+  font-size: 1.3rem;
+  word-spacing: 10px;
+  color: #fff;
+
+}
+
+/*footer*/
+
+.footer {
+  height: 13rem;
+  background-color: black;
+  display: flex;
+  color: white;
+  font-size: 1.6rem;
+  padding: 4rem;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.footer__data {
+  display: flex;
+}
+
+.footer__author {
+  margin-right: 0.5rem;
+}
+
+.footer__contact {
+  color: var(--pink-500);
+}
