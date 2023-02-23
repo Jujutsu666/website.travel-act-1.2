@@ -14,15 +14,59 @@
     />
 
     <!-- Custom Css file link -->
-    <link rel="stylesheet" href="./styles/stylesT.css" />
+    <link rel="stylesheet" href="./styles/pages/Home.css" />
   </head>
 
   <body>
     <div class="Home-page">
       <!--navigation-->
 
-      <nav class="Navigation">
-        <div class="logo">
+      <nav class="main-nav">
+        <div class="logo" id="logo">
+          <!--para darle un id, .logo#logo-->
+          <a href="../index.html" class="nav-logo-container"
+            ><i class="fa fa-plane" aria-hidden="true"> France Travel.</i></a
+          >
+        </div>
+        <div class="nav-menu">
+          <!--check btn-->
+          <!-- Menú de navegación -->
+
+          <a href="./pages/Historia.html" class="btn"
+            ><p class="nav-desktop">Historia</p>
+            <img
+              class="nav-mobile"
+              src="./assets/icons/history.svg"
+              alt="inicio"
+          /></a>
+          <a href="./pages/Atractivos.html" class="btn"
+            ><p class="nav-desktop">Atractivos</p>
+            <img
+              class="nav-mobile"
+              src="./assets/icons/attractions.svg"
+              alt="inicio"
+          /></a>
+          <a href="./pages/Información.html" class="btn"
+            ><p class="nav-desktop">Informacion</p>
+            <img class="nav-mobile" src="./assets/icons/info.svg" alt="inicio"
+          /></a>
+          <a href="./pages/Reservación.html" class="btn">
+            <p class="nav-desktop">Booking</p>
+            <img
+              class="nav-mobile"
+              src=""
+              alt="Booking"
+            /><!-- need to add icone for booking -->
+          </a>
+        </div>
+      </nav>
+
+      <!-- Old nav 
+        
+        
+        
+        <nav class="Navigation">
+        <div class="logo"> <!-- i should change the name logo to nav-logo-container ...
           <a href="index.html" class="nav-logo-container"
             ><i class="fa fa-plane" aria-hidden="true"> France Travel.</i></a
           >
@@ -40,6 +84,10 @@
           >
         </div>
       </nav>
+
+
+
+-->
 
       <!-- Center page / content -->
 
