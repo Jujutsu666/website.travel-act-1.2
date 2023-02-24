@@ -1,3 +1,8 @@
+
+@import url(../componants/nav.css);
+@import url(../componants/footer.css);
+
+
 /* Ajuste de tamaño y margen del formulario */
 form {
   width: 500px; /* Tamaño del formulario */
@@ -44,35 +49,7 @@ button[type="submit"] {
   border: none; /* Sin borde */
   cursor: pointer; /* Cursor en forma de mano */
 }
-nav {
-  font-family: Arial, sans-serif;
-  display: flex; /* Establece el contenedor principal de la navegación como un elemento flexible */
-  justify-content: space-between; /* Alinea los elementos en la dirección opuesta al eje principal (horizontal) */
-  align-items: center; /* Alinea los elementos en el centro en la dirección transversal (vertical) */
-  padding: 20px; /* Establece un padding de 20 píxeles */
-}
 
-/* Establece los estilos para el botón en la navegación */
-nav a.btn {
-  /* Convierte el elemento en un bloque */
-  display: block;
-  /* Establece un padding de 10 píxeles en la parte superior e inferior y 20 píxeles en la parte izquierda y derecha */
-  padding: 10px 20px;
-  /* Establece el color de fondo como #f2f2f2 */
-  background-color: #f2f2f2;
-  /* Establece un borde redondeado de 10 píxeles */
-  border-radius: 10px;
-  /* Establece una sombra en la caja con un desenfoque de 2 píxeles y una expansión de 4 píxeles */
-  box-shadow: 2px 2px 4px #888888;
-  /* Quita el subrayado */
-  text-decoration: none;
-  /* Establece el color del texto como #333 */
-  color: #333;
-  /* Establece el tamaño de fuente como 14 píxeles */
-  font-size: 14px;
-  /* Establece un margen derecho de 10 píxeles */
-  margin-right: 10px;
-}
 body {
   background-image: url("https://images3.alphacoders.com/114/114165.jpg");
   background-size: cover;

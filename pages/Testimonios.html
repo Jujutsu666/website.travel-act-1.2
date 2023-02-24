@@ -6,6 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../styles/reset.css" />
     <link rel="stylesheet" href="../styles/pages/Testimonios.css" />
+
+    <!-- Cdn font awesome link -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
@@ -17,85 +25,125 @@
     <title>Testimonios de viajes a Francia</title>
   </head>
   <body>
-    <div class="main-header">&nbsp;</div>
-    <nav class="main-nav">
-      <div class="logo" id="logo">
-        <!--para darle un id, .logo#logo-->
-        <span>MyLogo</span>
-      </div>
-      <div class="nav-menu">
-        <!--check btn-->
-        <!-- Menú de navegación -->
-        <a href="../index.html" class="btn">
-          <p class="nav-desktop">Inicio</p>
-          <img class="nav-mobile" src="../assets/icons/home.svg" alt="inicio" />
-        </a>
-        <a href="Historia.html" class="btn"
-          ><p class="nav-desktop">Historia</p>
-          <img class="nav-mobile" src="../assets/icons/history.svg" alt="inicio"
-        /></a>
-        <a href="Atractivos.html" class="btn"
-          ><p class="nav-desktop">Atractivos</p>
-          <img class="nav-mobile" src="../assets/icons/attractions.svg" alt="inicio"
-        /></a>
-        <a href="Información.html" class="btn"
-          ><p class="nav-desktop">Informacion</p>
-          <img class="nav-mobile" src="../assets/icons/info.svg" alt="inicio"
-        /></a>
-      </div>
-    </nav>
+    <div class="main-header">
+      &nbsp;
+      <nav class="main-nav">
+        <div class="logo" id="logo">
+          <!--para darle un id, .logo#logo-->
+          <a href="../index.html" class="nav-logo-container"
+            ><i class="fa fa-plane" aria-hidden="true"> France Travel.</i></a
+          >
+        </div>
+        <div class="nav-menu">
+          <!--check btn-->
+          <!-- Menú de navegación -->
+          <a href="../index.html" class="btn">
+            <p class="nav-desktop">Home</p>
+            <img
+              class="nav-mobile"
+              src="../assets/icons/home.svg"
+              alt="inicio"
+            />
+          </a>
+          <a href="Historia.html" class="btn"
+            ><p class="nav-desktop">History</p>
+            <img
+              class="nav-mobile"
+              src="../assets/icons/history.svg"
+              alt="history"
+          /></a>
+          <a href="Atractivos.html" class="btn"
+            ><p class="nav-desktop">Attractions</p>
+            <img
+              class="nav-mobile"
+              src="../assets/icons/attractions.svg"
+              alt="attractions"
+          /></a>
+          <a href="Información.html" class="btn"
+            ><p class="nav-desktop">About</p>
+            <img class="nav-mobile" src="../assets/icons/info.svg" alt="About"
+          /></a>
+          <a href="./Reservación.html" class="btn"
+            ><p class="nav-desktop">Booking</p>
+            <img
+              class="nav-mobile"
+              src="../assets/icons/info.svg"
+              alt="Booking"
+          /></a>
+        </div>
+      </nav>
 
-    <!--REVIEWS 1st person-->
-    <div class="rev-section">
-      <h3 class="title">Nuestros clientes están Felices</h3>
+      <!--REVIEWS 1st person-->
+      <div class="rev-section">
+        <h3 class="title">Nuestros clientes están Felices</h3>
 
-      <div class="reviews">
-        <div class="review">
-          <div class="head-review">
-            <div class="Avatar">
-              <img id="imagen" src="../assets/img/pic-1.png" alt="avatar" />
+        <div class="reviews">
+          <div class="review">
+            <div class="head-review">
+              <div class="Avatar">
+                <img id="imagen" src="../assets/img/pic-1.png" alt="avatar" />
+              </div>
+            </div>
+
+            <div class="body-review">
+              <div class="name-review">Jhon C.</div>
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="desc-review">
+                Mi viaje al sur de Francia fue simplemente increíble. Disfruté
+                de paisajes impresionantes, playas de ensueño y ciudades con una
+                rica cultura e historia. Además, la gastronomía fue una
+                experiencia única y deliciosa. Recomiendo a todos los viajeros
+                visitar esta hermosa región, no se arrepentirán.
+              </div>
             </div>
           </div>
 
-          <div class="body-review">
-            <div class="name-review">Jhon C.</div>
-            <div class="rating">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
+          <!--REVIEWS 2nd person-->
+          <div class="review">
+            <div class="head-review">
+              <div class="Avatar">
+                <img id="imagen" src="../assets/img/pic-2.png" alt="avatar" />
+              </div>
             </div>
-            <div class="desc-review">
-              Mi viaje al sur de Francia fue simplemente increíble. Disfruté de paisajes impresionantes, playas de ensueño y ciudades con una rica cultura e historia. Además, la gastronomía fue una
-              experiencia única y deliciosa. Recomiendo a todos los viajeros visitar esta hermosa región, no se arrepentirán.
+            <div class="body-review">
+              <div class="name-review">Nathan D.</div>
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="desc-review">
+                Tuve la oportunidad de viajar a Francia y conocer la hermosa
+                ciudad de París. Desde el primer momento quedé fascinado con la
+                majestuosidad de la Torre Eiffel y la belleza de los Jardines de
+                Luxemburgo. Sin duda, este viaje fue una aventura que siempre
+                recordaré con cariño.
+              </div>
             </div>
           </div>
         </div>
-
-        <!--REVIEWS 2nd person-->
-        <div class="review">
-          <div class="head-review">
-            <div class="Avatar">
-              <img id="imagen" src="../assets/img/pic-2.png" alt="avatar" />
-            </div>
-          </div>
-          <div class="body-review">
-            <div class="name-review">Nathan D.</div>
-            <div class="rating">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-            </div>
-            <div class="desc-review">
-              Tuve la oportunidad de viajar a Francia y conocer la hermosa ciudad de París. Desde el primer momento quedé fascinado con la majestuosidad de la Torre Eiffel y la belleza de los Jardines
-              de Luxemburgo. Sin duda, este viaje fue una aventura que siempre recordaré con cariño.
-            </div>
-          </div>
-        </div>
       </div>
+      <!-- footer -->
+
+      <footer class="footer">
+        <div class="footer-data">
+          <p class="footer-author">Author: Juliette Redois</p>
+          <a
+            class="footer-contact underline-animation"
+            href="mailto:juliette.redois@udgvirtual.udg.mx"
+            >Mail me!</a
+          >
+        </div>
+        <p class="footer__cr">© Copy Right 2023</p>
+      </footer>
     </div>
   </body>
 </html>
