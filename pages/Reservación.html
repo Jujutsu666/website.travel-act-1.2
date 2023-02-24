@@ -6,67 +6,137 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Reservación</title>
 
+    <!-- Cdn font awesome link -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+
     <!-- link css reseración -->
     <link rel="stylesheet" href="../styles/index.css" />
+    <link rel="stylesheet" href="../styles/componants/form.css" />
   </head>
 
   <body>
-    <nav>
-      <a href="../index.html" class="btn">Menú</a>
-      <a href="./Historia.html" class="btn">Historia</a>
-      <a href="Atractivos.html" class="btn">Atractivos</a>
-      <a href="Testimonios.html" class="btn">Testimonios</a>
-      <a href="Información.html" class="btn">Información</a>
-    </nav>
+    <div class="main">
+      <nav class="main-nav">
+        <div class="logo" id="logo">
+          <a href="../index.html" class="nav-logo-container"
+            ><i class="fa fa-plane" aria-hidden="true"> France Travel.</i></a
+          >
+        </div>
 
-    <!-- Formulario de reservación de viaje a Francia -->
-    <form action="">
-      <!-- Título del formulario -->
-      <h2>Reservación de viaje a Francia</h2>
-      <!-- Grupo de formularios para el nombre -->
-      <div class="form-group">
-        <!-- Etiqueta para el nombre -->
-        <label for="name">Nombre:</label>
-        <!-- Entrada de texto para el nombre -->
-        <input type="text" id="name" name="name" required />
-      </div>
-      <!-- Grupo de formularios para el correo electrónico -->
-      <div class="form-group">
-        <!-- Etiqueta para el correo electrónico -->
-        <label for="email">Correo electrónico:</label>
-        <!-- Entrada de correo electrónico -->
-        <input type="email" id="email" name="email" required />
-      </div>
-      <!-- Grupo de formularios para el número de personas -->
-      <div class="form-group">
-        <!-- Etiqueta para el número de personas -->
-        <label for="number">Número de personas:</label>
-        <!-- Entrada de número para el número de personas -->
-        <input type="number" id="number" name="number" required />
-      </div>
-      <!-- Grupo de formularios para la fecha de inicio -->
-      <div class="form-group">
-        <!-- Etiqueta para la fecha de inicio -->
-        <label for="start-date">Fecha de inicio:</label>
-        <!-- Entrada de fecha para la fecha de inicio -->
-        <input type="date" id="start-date" name="start-date" required />
-      </div>
-      <!-- Grupo de formularios para la fecha de fin -->
-      <div class="form-group">
-        <!-- Etiqueta para la fecha de fin -->
-        <label for="end-date">Fecha de fin:</label>
-        <!-- Entrada de fecha para la fecha de fin -->
-        <input type="date" id="end-date" name="end-date" required />
-      </div>
-      <!-- Grupo de formularios para el mensaje -->
-      <div class="form-group">
-        <!-- Etiqueta para el mensaje -->
-        <label for="message">Mensaje:</label>
-        <!-- Entrada de texto para el mensaje -->
-        <textarea id="message" name="message"></textarea>
-      </div>
-      <!-- Botón para enviar el formulario -->
-      <button type="submit">Enviar</button>
-    </form>
+        <div class="nav-menu">
+          <!--check btn-->
+          <!-- Menú de navegación -->
+          <a href="../index.html" class="btn">
+            <p class="nav-desktop">Home</p>
+            <img
+              class="nav-mobile"
+              src="../assets/icons/home.svg"
+              alt="inicio"
+            />
+          </a>
+          <a href="Historia.html" class="btn"
+            ><p class="nav-desktop">History</p>
+            <img
+              class="nav-mobile"
+              src="../assets/icons/history.svg"
+              alt="History"
+          /></a>
+          <a href="Atractivos.html" class="btn"
+            ><p class="nav-desktop">Attractions</p>
+            <img
+              class="nav-mobile"
+              src="../assets/icons/attractions.svg"
+              alt="attractions"
+          /></a>
+          <a href="Información.html" class="btn"
+            ><p class="nav-desktop">About</p>
+            <img class="nav-mobile" src="../assets/icons/info.svg" alt="About"
+          /></a>
+          <a href="./Testimonios.html" class="btn"
+            ><p class="nav-desktop">Reviews</p>
+            <img
+              class="nav-mobile"
+              src="../assets/icons/info.svg"
+              alt="Reviews"
+          /></a>
+        </div>
+      </nav>
+
+      <!-- Formulario de reservación de viaje a Francia -->
+      <form action="">
+        <!-- Título del formulario -->
+        <h2>Reservación de viaje a Francia</h2>
+
+        <!-- Grupo de formularios para el nombre -->
+        <div class="form-group">
+          <!-- Etiqueta para el nombre -->
+          <label for="name">Nombre:</label>
+          <!-- Entrada de texto para el nombre -->
+          <input type="text" id="name" name="name" required />
+        </div>
+
+        <!-- Grupo de formularios para el correo electrónico -->
+        <div class="form-group">
+          <!-- Etiqueta para el correo electrónico -->
+          <label for="email">Correo electrónico:</label>
+          <!-- Entrada de correo electrónico -->
+          <input type="email" id="email" name="email" required />
+        </div>
+
+        <!-- Grupo de formularios para el número de personas -->
+        <div class="form-group">
+          <!-- Etiqueta para el número de personas -->
+          <label for="number">Número de personas:</label>
+          <!-- Entrada de número para el número de personas -->
+          <input type="number" id="number" name="number" required />
+        </div>
+
+        <!-- Grupo de formularios para la fecha de inicio -->
+        <div class="form-group">
+          <!-- Etiqueta para la fecha de inicio -->
+          <label for="start-date">Fecha de inicio:</label>
+          <!-- Entrada de fecha para la fecha de inicio -->
+          <input type="date" id="start-date" name="start-date" required />
+        </div>
+
+        <!-- Grupo de formularios para la fecha de fin -->
+        <div class="form-group">
+          <!-- Etiqueta para la fecha de fin -->
+          <label for="end-date">Fecha de fin:</label>
+          <!-- Entrada de fecha para la fecha de fin -->
+          <input type="date" id="end-date" name="end-date" required />
+        </div>
+
+        <!-- Grupo de formularios para el mensaje -->
+        <div class="form-group">
+          <!-- Etiqueta para el mensaje -->
+          <label for="message">Mensaje:</label>
+          <!-- Entrada de texto para el mensaje -->
+          <textarea id="message" name="message"></textarea>
+        </div>
+
+        <!-- Botón para enviar el formulario -->
+        <button type="submit">Enviar</button>
+      </form>
+
+      <!-- footer -->
+
+      <footer class="footer">
+        <div class="footer-data">
+          <p class="footer-author">Author: Juliette Redois</p>
+          <br />
+          <a
+            class="footer-contact underline-animation"
+            href="mailto:juliette.redois@udgvirtual.udg.mx"
+            >Mail me!</a
+          >
+        </div>
+        <p class="footer__cr">© Copy Right 2023</p>
+      </footer>
+    </div>
   </body>
 </html>

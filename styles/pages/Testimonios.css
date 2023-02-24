@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap');
 
+@import url(../componants/footer.css);
+
+@import url(../componants/nav.css);
+
 * {
   box-sizing: border-box;
+  
 }
 
 .main-header {
@@ -24,33 +29,9 @@
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
   font-family: 'dosis', sans-serif;
 }
-.nav-menu {
-  display: flex;
-}
-.nav-mobile {
-  display: none;
-}
 
-#logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 100px;
-  padding: 20px 40px;
-  font-size: 1.3rem;
-  color: #fff;
-}
 
-.btn {
-  display: inline-block;
-  padding: 20px 40px;
-  font-size: 1.3rem;
-  color: #fff;
-}
 
-.btn:hover {
-  background: rgb(56, 90, 227);
-}
 
 /*reviews*/
 
@@ -149,35 +130,4 @@ body {
   font-family: 'dosis', sans-serif;
 }
 
-@media (max-width: 900px) {
-  .reviews {
-    flex-direction: column;
-    align-items: center;
-  }
-  .review {
-    width: 80%;
-  }
-  .nav-desktop {
-    display: none;
-  }
-  .nav-mobile {
-    display: flex;
-  }
-  .btn {
-    filter: invert(100%);
-  }
-  #logo {
-    margin-left: 2rem;
-    padding: 20px;
-  }
-}
 
-@media (max-width: 670px) {
-  .btn {
-    padding: 10px;
-  }
-  #logo {
-    margin-left: 1rem;
-    padding: 10px;
-  }
-}
