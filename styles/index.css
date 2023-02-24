@@ -1,1 +1,11 @@
-/*  put the import here ? */
+/* BASE */
+@import './reset.css';
+
+/* COMPONENTES */
+@import './componants/footer.css';
+@import './componants/nav.css';
+
+/* PAGES */
+@import './pages/Home.css';
+@import './pages/reservacion.css';
+@import './pages/Testimonios.css';
