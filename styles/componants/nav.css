@@ -1,9 +1,4 @@
-/*ESTILO*/
-
-@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap");
-
 /*main nav*/
-
 .main-nav {
   position: absolute;
   top: 0;
@@ -14,33 +9,28 @@
   justify-content: space-between;
   width: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
-  font-family: "dosis", sans-serif; /*text-shadow: 2px 2px 4px #000000;*/
+  font-family: 'dosis', sans-serif; /*text-shadow: 2px 2px 4px #000000;*/
 }
 
 /*logo*/
-
-.logo {
+#logo {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 100px;
   padding: 20px 40px;
   font-size: 1.3rem;
   color: #fff;
 }
 
 /*nav-menu*/
-
 .nav-menu {
   display: flex;
 
   margin-left: auto;
   margin-right: 100px;
-  
 }
 
 /*btn*/
-
 .btn {
   display: inline-block;
   padding: 20px 40px;
@@ -52,15 +42,10 @@
   background: rgb(56, 90, 227);
 }
 
-/*nav desktop*/
-
 /*nav mobile*/
-
 .nav-mobile {
   display: none;
 }
-
-/*ESTILOS*/
 
 a {
   color: #fff;
@@ -68,22 +53,7 @@ a {
   font-size: 2.5rem;
   padding: 20px 40px;
   word-spacing: 10px;
-  
 }
-
-/* nav logo container */
-
-.nav-logo-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 100px;
-  padding: 20px 40px;
-  font-size: 3rem;
-  
-}
-
-/*POSITION*/
 
 /*media*/
 
@@ -112,59 +82,3 @@ a {
     padding: 10px;
   }
 }
-
-
-
-
-
-/* OLD NAVIGATION
-
-.Navigation {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
-  text-shadow: 2px 2px 4px #000000;
-}
-*/
-
-/*
-a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 2.5rem;
-  padding: 20px 40px;
-}
-
-a:hover {
-    background: rgb(56, 90, 227);
-}
-*/
-
-/*
-.nav-logo-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 100px;
-  padding: 20px 40px;
-  font-size: 3rem;
-}
-*/
-
-/*
-.nav-menu {
-  margin-left: auto;
-  margin-right: 100px;
-  padding: 20px 40px;
-  font-size: 1.3rem;
-  word-spacing: 10px;
-  color: #fff;
-
-}
-*/

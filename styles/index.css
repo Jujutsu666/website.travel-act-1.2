@@ -1,5 +1,5 @@
 /* BASE */
-@import './reset.css';
+@import './base/reset.css';
 
 /* COMPONENTES */
 @import './componants/footer.css';
@@ -9,3 +9,4 @@
 @import './pages/Home.css';
 @import './pages/reservacion.css';
 @import './pages/Testimonios.css';
+@import './pages/historia.css';
