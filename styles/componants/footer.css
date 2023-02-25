@@ -11,14 +11,30 @@
   align-items: flex-end;
 }
 
-.footer__data {
+.footer-data {
   display: flex;
+  align-items: baseline;
 }
 
-.footer__author {
+.footer-author {
   margin-right: 0.5rem;
 }
 
-.footer__contact {
-  color: var(--pink-500);
+
+.footer-contact{
+  color: white;
+}
+
+.footer-contact:hover {
+  color: rgb(56, 90, 227);
+}
+
+@media (max-width: 670px) {
+  .footer {
+    font-size: 1rem;
+  }
+
+  .footer-contact {
+    font-size: 1rem;
+  }
 }

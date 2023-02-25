@@ -15,7 +15,8 @@
 .hero {
   height: 100vh;
   max-width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.pexels.com/photos/1850619/pexels-photo-1850619.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.pexels.com/photos/1850619/pexels-photo-1850619.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -60,3 +61,18 @@
   letter-spacing: 3px;
   text-align: center;
 }
+
+@media (max-width: 908px) {
+  .hero-sub-title, .slogan{
+    font-size: 1.5rem;
+  }
+  .hero-title {
+    font-size: 3rem;
+    letter-spacing: 1rem;
+  }
+  .hero-banner {
+    margin-top: 10rem;
+  }
+}
+
+
